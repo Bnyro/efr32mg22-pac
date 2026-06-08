@@ -1373,4 +1373,5 @@ impl Peripherals {
         }
     }
 }
-pub const NVIC_PRIO_BITS: u8 = 2;
+// https://github.com/SiliconLabs/simplicity_sdk/blob/sisdk-2025.6/platform/Device/SiliconLabs/EFR32MG22/Include/efr32mg22e224f512im40.h#L144
+pub const NVIC_PRIO_BITS: u8 = 4;
